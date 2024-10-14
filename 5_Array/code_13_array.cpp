@@ -12,6 +12,7 @@ int main()
 
     double price[] = {98.99, 105.90, 72.193};
     int size1 = 3;
+    // cout << sizeof(price) / sizeof(double) << endl;
     // for(int i=0; i<size1; i++){
     //     cout << price[i] << endl;
     // }
@@ -37,12 +38,12 @@ int main()
         //     smallest = nums[i];
         // }
         smallest = min(nums[i], smallest);
-        // cout << "Smallest = " << smallest << endl;
+        cout << "Smallest = " << smallest << endl;
         largest = max(nums[i], largest);
-        // cout << "Largest = " << largest << endl;
+        cout << "Largest = " << largest << endl;
     }
-    cout << "Smallest = " << smallest << endl;
-    cout << "Largest = " << largest << endl;
+    // cout << "Smallest = " << smallest << endl;
+    // cout << "Largest = " << largest << endl;
 
     return 0;
 }
