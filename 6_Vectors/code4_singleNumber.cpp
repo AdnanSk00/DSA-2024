@@ -20,7 +20,7 @@ int uniqueNumber(int arr[], int sz){
 
 int main(){
     vector<int> nums = {4, 1, 2, 1, 2};
-    // cout << "Unique number = " << singleNumber(nums) << endl;
+    cout << "Unique number = " << singleNumber(nums) << endl;
 
 
     int arr[] = {1, 2, 1, 2, 4};

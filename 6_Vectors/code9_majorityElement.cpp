@@ -78,9 +78,9 @@ int majorityElement(vector<int> nums) {      // Moore's voting algorithm T.compl
 }
 
 int main(){
-    // vector<int> nums = {2, 1, 1, 2, 1};
+    vector<int> nums = {2, 1, 1, 2, 1};
     // vector<int> nums = {0, 1, 2, 2, 2, 0, 2, 1, 2};
-    vector<int> nums = {2, 1, 2, 2, 1};
+    // vector<int> nums = {2, 1, 2, 2, 1};
     // majorityElement(nums) ;
     cout << "Majority Element = " << majorityElement(nums) << endl;
 

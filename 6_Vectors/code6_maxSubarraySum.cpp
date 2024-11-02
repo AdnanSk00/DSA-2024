@@ -6,8 +6,8 @@ using namespace std;
 int main(){
     int sz = 7;
     int arr[7] = {3, -4, 4, 5, -1, 7, -8};
-    // int sz = 5;
-    // int arr[5] = {1, 2, 3, 4, 5};
+    // int sz = 6;
+    // int arr[sz] = {1, 2, 3, 4, 5, 6};
 
     int maxSum = INT8_MIN;
 

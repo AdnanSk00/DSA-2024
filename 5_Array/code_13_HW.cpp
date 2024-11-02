@@ -31,9 +31,9 @@ int swapMaxAndMin(int arr[], int sz){
 int uniqueValues(int arr[], int sz){
     int st=0, end=sz-1, unique = 0;
     for(int st=0; st<sz; st++){
-        for(int end=0; end<sz; end++){
+        // for(int end=0; end<sz; end++){
             unique = unique ^ arr[st];
-        }
+        // }
     }
     return unique;
 }
@@ -55,9 +55,6 @@ int main(){
     int a[] = {1, 2, 3, 4, 5, 6};
     int b[] = {6, 7, 1, 3};
     intersectionFromArrays(a, b, 6, 4);
-
-
-    
 
 
     return 0;

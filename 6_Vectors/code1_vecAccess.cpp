@@ -15,9 +15,9 @@ int main(){
     // cout << vec[3] << endl;
     // cout << vec[4] << endl;
 
-    // for(int i : vec){        // for each loop
-    //     cout << i << endl;
-    // }
+    for(int i : vec){        // for each loop
+        cout << i << endl;
+    }
 
     vector<char> charVec = {'a', 'b', 'c', 'd', 'e'};
     for(char val : charVec){

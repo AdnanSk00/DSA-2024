@@ -27,9 +27,9 @@ int main(){
     cout << "Back = " << emptyVec.back() << endl;
     cout << "At[] = " << emptyVec.at(2) << endl;
 
-    // for(int i : emptyVec){
-    //     cout << i << endl;
-    // }
+    for(int i : emptyVec){
+        cout << i << endl;
+    }
 
     return 0;
 }

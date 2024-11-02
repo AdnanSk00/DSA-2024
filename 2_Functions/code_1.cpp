@@ -70,8 +70,8 @@ int main(){
     // cout << "min = " << minOfTwo(9, 4) << endl; // arguments
 
     int x = 5, y = 10;
-    // cout << "The total sum from 1 to " << n << " : " << sumN(x) <<endl;
-    // cout << "The total sum from 1 to " << n << " : " << sumN(y) <<endl;
+    // cout << "The total sum from 1 to " << x << " : " << sumN(x) <<endl;
+    // cout << "The total sum from 1 to " << y << " : " << sumN(y) <<endl;
 
     int f1 = 4, f2 = 5;
     // cout << "Factorial of " << f1 << " is : " << factorialN(f1) <<endl;

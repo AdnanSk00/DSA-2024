@@ -6,9 +6,11 @@ using namespace std;
 //     cout << "Enter a number: ";
 //     cin >> n;
 //     for(int i=1; i<=n; i++){
-//         for(int j=0; j<=i; j++){
+//         // for(int j=1; j<=i-1; j++){
+//         for(int j=1; j<i; j++){
 //             cout << "  ";
 //         }
+//         // for(int k=1; k<=n-i+1; k++){
 //         for(int k=0; k<=n-i; k++){
 //             cout << (i) << " ";
 //         }
@@ -23,7 +25,8 @@ int main(){
     cin >> n;
     char ch = 'A';
     for(int i=1; i<=n; i++){
-        for(int j=0; j<=i; j++){
+        // for(int j=1; j<i; j++){
+        for(int j=0; j<i-1; j++){
             cout << "  ";
         }
         for(int k=0; k<=n-i; k++){

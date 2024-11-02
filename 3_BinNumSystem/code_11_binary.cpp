@@ -24,7 +24,7 @@ int binToDecimal(int binNum){
     int ans = 0, pow = 1;
     while(binNum > 0){
         int rem = binNum % 10;
-        ans += rem * pow;
+        ans += (rem * pow);
 
         binNum /= 10;
         pow *= 2;
@@ -35,12 +35,12 @@ int binToDecimal(int binNum){
 int main(){
     int decNum, binNum;
     
-    // cout << "Enter Decimal Number = ";
-    // cin >> decNum;
-    // cout << "Given Binary Number = " << decToBinary(decNum) << endl;
-    // for (int i=1; i<=10; i++){
-    //     cout <<"Binary (" << i << ") = " << decToBinary(i) << endl;
-    // }
+    cout << "Enter Decimal Number = ";
+    cin >> decNum;
+    cout << "Given Binary Number of " << decNum << " = " << decToBinary(decNum) << endl;
+    for (int i=1; i<=10; i++){
+        cout <<"Binary (" << i << ") = " << decToBinary(i) << endl;
+    }
 
     cout << "Enter Binary Number = ";
     cin >> binNum;
