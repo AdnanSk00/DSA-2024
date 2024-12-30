@@ -12,21 +12,21 @@
 using namespace std;
 
 // int majorityElement(vector<int> nums) {      // Brute Force T.complexity - O(n2)
-//         int n = nums.size();
-//         for(int val : nums){
-//             int freq = 0;
-//             for(int el : nums){
-//                 if(el == val){
-//                     freq++;
-//                 }
-//             }
-//             if(freq > n/2){
-//                 cout << "Frequency = " << freq << endl;
-//                 return val;
+//     int n = nums.size();
+//     for(int val : nums){
+//         int freq = 0;
+//         for(int el : nums){
+//             if(el == val){
+//                 freq++;
 //             }
 //         }
-//         return -1;
+//         if(freq > n/2){
+//             cout << "Frequency = " << freq << endl;
+//             return val;
+//         }
 //     }
+//     return -1;
+// }
 
 // int majorityElement(vector<int> nums) {      // Optimize (sorting) T.complexity - O(nlogn)
 //     int n = nums.size();    
@@ -78,9 +78,10 @@ int majorityElement(vector<int> nums) {      // Moore's voting algorithm T.compl
 }
 
 int main(){
-    vector<int> nums = {2, 1, 1, 2, 1};
-    // vector<int> nums = {0, 1, 2, 2, 2, 0, 2, 1, 2};
+    // vector<int> nums = {2, 1, 1, 2, 1};
+    vector<int> nums = {0, 1, 2, 2, 2, 0, 2, 1, 2};
     // vector<int> nums = {2, 1, 2, 2, 1};
+    // vector<int> nums = {3, 3, 2, 3, 1, 2, 2, 1, 2};
     // majorityElement(nums) ;
     cout << "Majority Element = " << majorityElement(nums) << endl;
 

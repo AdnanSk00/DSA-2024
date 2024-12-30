@@ -4,7 +4,7 @@ using namespace std;
 
 int singleNumber(vector<int>& nums){
     int ans = 0;
-    for(int val : nums){
+    for(int val : nums){    // Using for each loop
         ans = ans ^ val;
     }
     return ans;
@@ -12,7 +12,7 @@ int singleNumber(vector<int>& nums){
 
 int uniqueNumber(int arr[], int sz){
     int ans = 0;
-    for(int i=0; i<sz; i++){
+    for(int i=0; i<sz; i++){    // Using for loop
         ans = ans ^ arr[i];
     }
     return ans;

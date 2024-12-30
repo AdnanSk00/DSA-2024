@@ -56,6 +56,5 @@ int main(){
     int b[] = {6, 7, 1, 3};
     intersectionFromArrays(a, b, 6, 4);
 
-
     return 0;
 }

@@ -24,6 +24,10 @@ int main(){
         cout << val << endl;
     }
 
-
+    // vector<int> vec2(4, -2);
+    vector<int> vec2 = {4, -2, -3};
+    for(int count : vec2){
+        cout << count << endl;
+    }
     return 0;
 }

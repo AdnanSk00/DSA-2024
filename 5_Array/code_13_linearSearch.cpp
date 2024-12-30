@@ -18,6 +18,7 @@ int main(){
     int target = 8;
     // int target = 6;
 
+    cout << "Target = " << target << endl;
     cout << "At index = " << linearSearch(arr, size, target) << endl;
     
 
