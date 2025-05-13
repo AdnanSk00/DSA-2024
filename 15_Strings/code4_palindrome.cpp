@@ -20,7 +20,7 @@ bool isPalindrome(string s) {
 
     while(st < end){
         if(!isAlphaNum(s[st])) {
-            st++; continue;
+            st++; continue; 
         }
         if(!isAlphaNum(s[end])) {
             end--; continue;
@@ -31,17 +31,20 @@ bool isPalindrome(string s) {
         
         st++; end--;
     }
-
+    
     return true;
 }
 
 int main(){
     // string s = "race a car";     // raceacar
-    // string s = "A man, a plan, a canal: Panama";
-    string s = " ";
+    string s = "A man, a plan, a canal: Panama";
+    // string s = "Ac3?e3c&a";      // ac3e3cA
+    // string s = " ";
     cout << "Stirng length = " << s.length() << endl;
-    cout << isPalindrome(s);
-
+    if(isPalindrome(s))
+        cout << "\"" << s << "\" is palindrom";
+    else
+        cout << "\"" << s << "\" is not palindrom";
 
     return 0;
 }

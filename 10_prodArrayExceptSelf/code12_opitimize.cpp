@@ -1,7 +1,3 @@
-// Container with Most Water :
-
-// Leetcode Problem 11 :-
-
 // Using Optimize method :-
 
 #include<iostream>

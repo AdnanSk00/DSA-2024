@@ -11,7 +11,7 @@ string removeOccurrences(string s, string part) {
         cout << "Part length - " << part.length() << endl << endl;
     
     while(s.length() > 0 && s.find(part) < s.length()) {
-        cout << "Length of String = " << s.length() << endl;
+        cout << "Length of String = " << s.length() << " > " << s << endl;
         cout << "Part Index - " << s.find(part) << endl;
 
         s.erase(s.find(part), part.length());

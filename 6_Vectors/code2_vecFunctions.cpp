@@ -20,8 +20,8 @@ int main(){
     emptyVec.push_back(07);
     cout << "After puch_back = " << emptyVec.size() << endl;
 
-    // emptyVec.pop_back();
-    // cout << "After pop_back = " << emptyVec.size() << endl;
+    emptyVec.pop_back();
+    cout << "After pop_back = " << emptyVec.size() << endl;
 
     cout << "Front = " << emptyVec.front() << endl;
     cout << "Back = " << emptyVec.back() << endl;
@@ -34,9 +34,9 @@ int main(){
     return 0;
 }
 // Vector Functions :
-// - size
-// - puch_back
-// - pop_back
-// - front
-// - back
-// - at
+// - size()
+// - puch_back()
+// - pop_back()
+// - front()
+// - back()
+// - at()

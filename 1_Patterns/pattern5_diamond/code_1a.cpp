@@ -15,7 +15,7 @@ int main(){
             }
         }
         for(int s=1; s<n; s++){
-            if(i-1==s){
+            if(s==i-1){
                 cout << "* ";
             }
             else{
@@ -33,7 +33,7 @@ int main(){
                 cout <<"  "; 
             }
         }
-        for(int s=1; s<n; s++){
+        for(int s=1; s<n-1; s++){
             if(n-i-1==s){
                 cout << "* ";
             }

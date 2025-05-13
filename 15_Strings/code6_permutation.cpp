@@ -23,6 +23,7 @@ bool checkInclusion(string s1, string s2) {     // O(n²)
         // int idx = s1[i] - 'a';  // a -> 0, b -> 1
         // freq[idx]++;
         freq[s1[i] - 'a']++;
+        cout << freq[i] << " ";
     }
 
     int windSize = s1.length();
@@ -34,7 +35,10 @@ bool checkInclusion(string s1, string s2) {     // O(n²)
             windFreq[s2[idx] - 'a']++;
             windIdx++; idx++;
         }
-
+        cout << endl;
+        for(int value : windFreq){
+            cout << value << " ";
+        }
         if(isFreqSame(freq, windFreq)) {    // found permutation
             return true;
         }
@@ -45,10 +49,16 @@ bool checkInclusion(string s1, string s2) {     // O(n²)
 
 
 int main(){
-    string s1 = "ab", s2 = "eidbaooo";
+    // string s1 = "ab", s2 = "eidbaooo";
     // string s1 = "ab", s2 = "eidboaoo";
+    string s1 = "abc", s2 = "abacdbcaabcbabdca";
 
-    cout << checkInclusion(s1, s2);
+    checkInclusion(s1, s2);
+    if(checkInclusion)
+        cout << endl << s1 << " exists in " << s2 << endl;
+    else
+        cout << endl << s1 << " doesn't exists in " << s2 << endl;
+        
 
 
     return 0;

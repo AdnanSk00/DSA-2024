@@ -1,1 +1,2 @@
-f
+
+            ans = nums[i];

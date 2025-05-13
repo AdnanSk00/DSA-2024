@@ -8,9 +8,9 @@ int main(){
     cin >> n;
     for(int i=1; i<=n; i++){    // outer loop
         for(int j=0; j<n; j++){    // inner loop
-            cout << i << " ";
+            // cout << i << " ";
             // cout << j << " ";
-            // cout << "* ";
+            cout << "* ";
         }
         cout << endl;
     }

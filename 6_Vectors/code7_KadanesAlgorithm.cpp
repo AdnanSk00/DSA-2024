@@ -23,10 +23,10 @@ int maxSubArray(vector<int>& nums) {
 int main(){
 
     vector<int> nums = {3, -4, 5, 4, -1, 7, -8};
-    cout << "Maximum Subarray Sum = " << maxSubArray(nums) << endl;
+    cout << "1) Maximum Subarray Sum = " << maxSubArray(nums) << endl;
      
     int sz = 8;
-    int arr[8] = {3, -4, 5, 3, 4, -1, 7, -8};
+    int arr[sz] = {3, -4, 5, 3, 4, -1, 7, -8};
 
     int currSum = 0;
     int maxSum = INT8_MIN;
@@ -40,7 +40,7 @@ int main(){
             }
         // }
     }
-    cout << "Maximum Subarray Sum = " << maxSum << endl;
+    cout << "2) Maximum Subarray Sum = " << maxSum << endl;
 
 
     return 0;

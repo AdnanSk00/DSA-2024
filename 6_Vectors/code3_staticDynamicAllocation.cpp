@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
+    // vector<int> vec(18, 0);
+
     vector<int> vec;
     vec.push_back(0);
     vec.push_back(5);
@@ -15,7 +17,7 @@ int main(){
     vec.push_back(3);
     vec.push_back(4);
     vec.push_back(5);
-
+    
     cout << "size = " << vec.size() << endl;     
     cout << "capacity = " << vec.capacity() << endl; 
 

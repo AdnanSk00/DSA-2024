@@ -22,7 +22,7 @@ double myPow(double x, int n){
         }
         x = x * x;
         binForm = binForm / 2;
-    }
+    } 
     
     return ans;
 }
@@ -30,7 +30,7 @@ double myPow(double x, int n){
 
 int main()
 {
-    int power = myPow(3, 5);
+    int power = myPow(2, 10);
     cout << power << endl;
 
     return 0;

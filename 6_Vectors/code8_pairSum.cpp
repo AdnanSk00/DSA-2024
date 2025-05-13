@@ -48,7 +48,7 @@ int main(){
     int target = 22;
 
     vector<int> ans = pairSum(nums, target);
-    cout << "Index = [" << ans[0] << ", " << ans[1] << "]" << endl;
+    cout << "Index = [" << ans[0] << ", " << ans[1] << ", " << ans[2] << "]" << endl;
 
     return 0;
 }

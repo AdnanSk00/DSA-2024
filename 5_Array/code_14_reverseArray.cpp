@@ -18,11 +18,10 @@ int main(){
     int arr[] = {4, 2, 7, 8, 1, 2, 5};    
     int size = 7;
     reverseArray(arr, size);
-    cout << "Reverse Array = [";
+    cout << "Reverse Array = [ ";
     for(int i=0; i<size; i++){
         cout << arr[i] << " ";
     }
-    cout << "]";
-    cout << endl;
+    cout << "]" << endl;
     return 0;
 }

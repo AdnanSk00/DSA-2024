@@ -6,17 +6,18 @@ using namespace std;
 // Character Arrays :-
 
 int main(){
-    // char str1[] = {'a', 'b', 'c'};
+    // char str1[] = {'a', 'b', 'c', 'd'};
+    // cout << str1 << endl;
     // char str2[] = {'a', 'b', 'c', '\0'};
     // int arr[] = {1, 2, 3};
-    // char str[] = "college";   // string literals
+    char str[] = "college";   // string literals
     // cout << sizeof(str) << endl;
     // cout << str[2] << endl;    // constant pointers
     
     // char lafz[15];
 
     // cout << "Enter char array : ";
-    // cin.getline(lafz, 100, '$');
+    // cin.getline(lafz, 15 , '$');
     // E.g - "Are ha na$re bhay"
 
     // cin.getline(lafz, 15);

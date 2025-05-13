@@ -61,29 +61,29 @@ int nCr(int n, int r){
 
 int main(){
     // function call / invoke
-    // int val = printHello();
-    // cout << "val = " << val << endl;
+    int val = printHello();
+    cout << "val = " << val << endl;
     // cout << printHello() << endl;
 
-    // cout << sum(2.9, 4.65) << endl;
+    cout << "sum = " << sum(2.9, 4.65) << endl;
 
-    // cout << "min = " << minOfTwo(9, 4) << endl; // arguments
+    cout << "min = " << minOfTwo(9, 4) << endl; // arguments
 
     int x = 5, y = 10;
-    // cout << "The total sum from 1 to " << x << " : " << sumN(x) <<endl;
+    cout << "The total sum from 1 to " << x << " : " << sumN(x) <<endl;
     // cout << "The total sum from 1 to " << y << " : " << sumN(y) <<endl;
 
     int f1 = 4, f2 = 5;
-    // cout << "Factorial of " << f1 << " is : " << factorialN(f1) <<endl;
+    cout << "Factorial of " << f1 << " is : " << factorialN(f1) <<endl;
     // cout << "Factorial of " << f2 << " is : " << factorialN(f2);
 
     int number ;
-    // cout << "Enter num = ";
-    // cin >> number;
-    // cout << "sum = " << sumOfDigits(number) << endl;
+    cout << "Enter num = ";
+    cin >> number;
+    cout << "sum of digit = " << sumOfDigits(number) << endl;
 
     int n = 6, r =3 ;
-    cout << nCr(n, r);
+    cout << n << "C" << r << " = " << nCr(n, r);
 
     return 0;
 }

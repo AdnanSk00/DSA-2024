@@ -24,9 +24,9 @@ int main(){
 
     string a1 = "Sayyed";
     string b1 = "Shaikh";
-    // cout << (a1!=b1);
-    // cout << (a1>b1);
-    // cout << a1.length() << endl;
+    cout << (a1!=b1) << endl;
+    cout << (a1>b1) << endl;
+    cout << a1.length() << endl;
 
     string forInp ;
     // cout << "Enter the String - ";
